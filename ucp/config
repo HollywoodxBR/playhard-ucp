@@ -1,0 +1,4 @@
+<?php
+$myConnection = mysqli_connect('localhost', 'root', '') or die(mysqli_error($myConnection)); 
+mysqli_select_db('db', $myConnection) or die(mysqli_error($myConnection)); 
+?>
